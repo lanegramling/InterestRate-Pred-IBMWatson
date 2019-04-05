@@ -8,7 +8,7 @@ Two models are tested in this project:
 - Multiple Linear Regression
 - Ridge Regression
 
-#####Words of caution:
+####Words of caution:
 
 This is a rather mediocre application for a learning model, as many of the features used to feed the regressions for prediction exhibit high multi-collinearity due to their values being inextricably tied to the target variable (interest rate). The motivation for using Ridge Regression was an attempt to select a model better suited for this scenario, which includes an alpha parameter used to tone down the overfitting apparent in the multiple linear regression model. In using ridge regression, we chose to implement an iterative process to approximate the optimal the alpha value, which then results in the ridge regression showing a lower accuracy rating, which was the desired outcome.
 
